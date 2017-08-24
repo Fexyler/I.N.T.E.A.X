@@ -16,7 +16,7 @@ def main():
             for i in ["colorama","pyaudio","speechrecognition","youtube-dl","pyttsx3"]:
                 pip.main(["install", i])
             file = open("/usr/bin/inteax", "w")
-			file.write(content)
+	    file.write(content)
             file.close()
             os.system("chmod +x /usr/bin/inteax")
             print "\n\n[+]Installiation is completed,type 'inteax' and use!"
