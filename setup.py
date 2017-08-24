@@ -24,5 +24,5 @@ def main():
             print("Type 'sudo' please.")
     else:
         print("Sorry you can not run in Windows,in the V2 you will run.")
-if __name__="__main__":
+if __name__=="__main__":
     main()
