@@ -1,0 +1,5 @@
+colorama
+youtube-dl
+pyttsx3
+pyaudio
+speech_recognition
