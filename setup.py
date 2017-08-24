@@ -9,8 +9,8 @@ cd /usr/share/inteax
 python2 main.py "$@"
 """
 def main():
-    if os.name!="nt":
-        if os.getuid()=0:
+    if os.name!=="nt":
+        if os.getuid()==0:
             os.system("git clone https://github.com/Fexyler/I.N.T.E.A.X.git /usr/share/inteax")
         
             for i in ["colorama","pyaudio","speechrecognition","youtube-dl","pyttsx3"]:
